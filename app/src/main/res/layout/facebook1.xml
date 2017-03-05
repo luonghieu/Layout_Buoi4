@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5998"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/facebook"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imgfacebook"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgfacebook"
+        android:id="@+id/edtemail"
+        android:background="@drawable/duongvien"
+        android:layout_marginBottom="10dp"
+        android:hint="email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtemail"
+        android:id="@+id/edtpass"
+        android:background="@drawable/duongvien"
+        android:layout_marginBottom="10dp"
+        android:hint="password"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpass"
+        android:background="@drawable/duongvien_button"
+        android:text="Login"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:id="@+id/login"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up for facebook"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sign"
+        android:layout_above="@+id/hoi"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="@drawable/duongvien_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/hoi"
+        />
+
+</RelativeLayout>

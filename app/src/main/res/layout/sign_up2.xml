@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginBottom="10dp"
+        android:textSize="25dp"
+        android:textColor="#6e27ba"
+        android:layout_alignParentTop="true"
+        android:id="@+id/signup"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please submit your website for a review."
+        android:layout_marginBottom="5dp"
+        android:textSize="12dp"
+        android:layout_below="@+id/signup"
+        android:id="@+id/com1"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permium website will recieve $15 credit and higher revernues"
+        android:layout_marginBottom="15dp"
+        android:textSize="12dp"
+        android:layout_below="@+id/com1"
+        android:id="@+id/com2"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/duongvien_sign"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edt1"
+        android:layout_below="@+id/com2"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gmail"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="contact@tapchicntt.com"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/duongvien_sign"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/edt2"
+        android:layout_below="@+id/edt1"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pass"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="******"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/duongvien_sign"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edt3"
+        android:layout_below="@+id/edt2"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pass"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="******"
+            android:inputType="textPassword"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edt4"
+        android:layout_below="@+id/edt3"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/duongvien_sign"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user"
+                android:layout_gravity="center"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Tạp chí"
+
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tin học"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:background="@drawable/duongvien_sign"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/duongvien_sign"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edt5"
+        android:layout_below="@+id/edt4"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have direct relationship or manage websites"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/duongvien_sign"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edt6"
+        android:layout_below="@+id/edt5"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My website have no adult/vulgar/illegal content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/duongvien_sign"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/edt7"
+        android:layout_below="@+id/edt6"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My website are not associated with bot traffic"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_weight="1"
+        android:background="@drawable/duongvien"
+        android:backgroundTint="#6e27ba"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:id="@+id/btnsubmit"
+        android:layout_below="@+id/edt7"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By singing up you agree to our terms of service and privacy policy "
+        android:layout_marginBottom="5dp"
+        android:textSize="11dp"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/btnsubmit"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I already have a account "
+        android:layout_gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
